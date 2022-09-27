@@ -35,3 +35,53 @@
   background-color: white;
   color: rgb(64, 0, 199);
 }
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 20px;
+  position: relative;
+  transition: transform 0.5s ease-out;
+}
+
+.full-img:hover {
+  transition: all 1s;
+  background-size: 120%;
+}
+.benefit-img1 {
+  background-image: url('https://codestates.com/assets/main/benefit-1.png');
+}
+.benefit-img2 {
+  background-image: url('https://codestates.com/assets/main/benefit-2.png');
+}
+.benefit-img3 {
+  background-image: url('https://codestates.com/assets/main/benefit-3.png');
+}
+.benefit-img4 {
+  background-image: url('https://codestates.com/assets/main/benefit-4.png');
+}
+.benefit-img5 {
+  background-image: url('https://codestates.com/assets/main/benefit-5.png');
+}
+.more-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.5rem;
+}
+#messenger {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
