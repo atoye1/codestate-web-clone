@@ -1,0 +1,37 @@
+.purple {
+  background-color: rgb(242, 234, 255);
+}
+
+.orange {
+  background-color: rgb(251, 214, 199);
+}
+
+.card span {
+  padding: 2px;
+  font-size: 13px;
+  color: white;
+  background-color: rgb(64, 0, 199);
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  background-color: rgb(64, 0, 199);
+  color: white;
+}
+
+.card-link-wrapper {
+  margin: auto;
+}
+.card-link {
+  color: black;
+  text-decoration: none;
+}
+
+.card:hover .card-link {
+  color: white;
+}
+
+.card:hover span.border {
+  background-color: white;
+  color: rgb(64, 0, 199);
+}

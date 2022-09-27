@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>코딩부트캠프 | 코드스테이츠</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://codestates.com/assets/codestates-ci.png"
+              alt=""
+              width="80"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex flex-row"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav ms-5">
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">수강후기</a></li>
+                  <li><a class="dropdown-item" href="#">졸업생 커뮤니티</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  수업탐색
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">프론트엔드 개발</a></li>
+                  <li><a class="dropdown-item" href="#">백엔드 개발</a></li>
+                  <li><a class="dropdown-item" href="#">블록체인</a></li>
+                  <li><a class="dropdown-item" href="#">데브옵스</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">프로덕트 매니지먼트</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="#"
+                  >채용파트너쉽</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">기업교육</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">블로그</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">자주 묻는 질문</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">마이페이지</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="carousel" class="container-fluid">
+        <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#mainCarousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#mainCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#mainCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#mainCarousel"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="MainBanner_BASIC_2208PC.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="MainBanner_BLOG_2208PC.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="MainBanner_PMB_2208PC.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="MainBanner_SEB_2208PC_entry.png"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#mainCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#mainCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div id="courses" class="container">
+        <div class="my-5 text-center">
+          <h1 class="mb-3 font-weight-bold">내게 맞는 코스를 찾아보세요</h1>
+          개발자부터 프로덕트 매니저, 마케터까지
+          <br />
+          IT 취업에 특화된 부트캠프를 소개합니다.
+        </div>
+        <div
+          class="row row-cols-sm-2 row-cols-1 row-cols-md-3 row-cols-lg-4 g-4"
+        >
+          <div class="col">
+            <div class="card h-100 w-100 p-3 purple">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집중</span>
+                </div>
+                <h5 class="card-title">프론트엔드 엔지니어링</h5>
+                <p class="card-text">
+                  사용자 친화적 웹 서비스 개발 능력을 갖춘 프론트엔드 개발자
+                  과정
+                </p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div id="backend" class="card h-100 w-100 p-3 orange">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집중</span>
+                </div>
+                <h5 class="card-title">백엔드 엔지니어링</h5>
+                <p class="card-text">
+                  안정적인 웹 서비스를 효율적으로 구축하는 백엔드 개발자 양성
+                  과정
+                </p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 w-100 p-3 purple">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집중</span>
+                </div>
+                <h5 class="card-title">프로덕트 매니지먼트</h5>
+                <p class="card-text">
+                  문제 정의부터 서비스 출시까지 PM 실무 역량 강화
+                </p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 w-100 p-3 orange">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집예정</span>
+                </div>
+                <h5 class="card-title">그로스 마케팅</h5>
+                <p class="card-text">
+                  데이터 드리븐으로 사고하는 대체불가 마케터 양성
+                </p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 w-100 p-3 purple">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집예정</span>
+                </div>
+                <h5 class="card-title">인공지능 (AI)</h5>
+                <p class="card-text">데이터 사이언스 입문을 위한 A to Z</p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 w-100 p-3 orange">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집예정</span>
+                </div>
+                <h5 class="card-title">블록체인</h5>
+                <p class="card-text">
+                  개인 능력에 블록체인 실무 능력을 더하세요
+                </p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 w-100 p-3 purple">
+              <div class="card-body d-flex flex-column">
+                <div class="mb-2">
+                  <span class="border rounded">모집예정</span>
+                </div>
+                <h5 class="card-title">데브옵스(DevOps)</h5>
+                <p class="card-text">
+                  비전공자도 클라우드 서비스 개발은 물론 운영까지 한 번에
+                </p>
+                <div class="mt-auto align-self-end">
+                  <a href="#" class="card-link">더 알아보기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
